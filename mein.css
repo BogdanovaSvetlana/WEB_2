@@ -1,0 +1,29 @@
+body {
+    background-color: rgba(167, 192, 178, 0.493);
+}
+
+h1 {
+    color: rgba(93, 63, 126, 0.747);
+}
+
+h2 {
+    color: rgba(151, 16, 144, 0.808);
+}
+
+h3 {
+    color: rgba(96, 165, 17, 0.685);
+}
+
+.bold {
+    font-family: 'Barocco Initial', sans-serif;
+}
+
+@font-face {
+    font-family: 'Barocco Initial';
+    src: url('fonts/barocco_initial.eot');
+    src: url('fonts/barocco_initial.eot?#iefix') format('embedded-opentype'),
+        url('fonts/barocco_initial.woff2') format('woff2'),
+        url('fonts/barocco_initial.woff') format('woff'),
+        url('fonts/barocco_initial.ttf') format('truetype'),
+        url('fonts/barocco_initial.svg#barocco_initial') format('svg');
+}
